@@ -13,6 +13,7 @@ module.exports = withModuleFederationPlugin({
       './Component2': './projects/mfe2/src/app/components/component-2/component-2.component.ts',
       './Component3': './projects/mfe2/src/app/components/component-3/component-3.component.ts',
       './Component4': './projects/mfe2/src/app/components/component-4/component-4.component.ts',
+      './APP_ROUTES': './projects/mfe2/src/app/app.routes.ts',
     },
     
 

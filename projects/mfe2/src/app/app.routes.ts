@@ -1,13 +1,10 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component'; // Root component
 import { MainComponent } from './components/main/main.component'; // Main page
 
-export const routes: Routes = [
+export const APP_ROUTES: Routes = [
   {
-    path: '', // Root route for mfe1
-    component: AppComponent,
-    children: [
-      {
+    
+      
         path: '', // Default child route
         component: MainComponent,
         children: [
@@ -40,7 +37,7 @@ export const routes: Routes = [
               ),
           },
         ],
-      },
-    ],
+      
+    
   },
 ];
